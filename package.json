@@ -1,6 +1,6 @@
 {
-  "name": "@metamask/jazzicon",
-  "version": "2.1.0",
+  "name": "@safeandreliable/jazzicon",
+  "version": "2.1.1",
   "description": "Jazzy deterministic identicons for a more entertaining future",
   "main": "index.js",
   "scripts": {
