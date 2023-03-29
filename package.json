@@ -1,6 +1,6 @@
 {
   "name": "@safeandreliable/jazzicon",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "Jazzy deterministic identicons for a more entertaining future",
   "main": "index.js",
   "scripts": {

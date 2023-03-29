@@ -9,7 +9,8 @@ module.exports = generateIdenticon
 var generator
 function generateIdenticon(diameter, seed) {
   generator = new MersenneTwister(seed);
-  var remainingColors = hueShift(colors.slice(), generator)
+  //var remainingColors = hueShift(colors.slice(), generator)
+  var remainingColors = colors.slice();
 
   var elements = paperGen(diameter, genColor(remainingColors))
   var container = elements.container
