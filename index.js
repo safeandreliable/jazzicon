@@ -7,10 +7,10 @@ var svgns = 'http://www.w3.org/2000/svg'
 module.exports = generateIdenticon
 
 var generator
-function generateIdenticon(diameter, seed) {
+function generateIdenticon(diameter, seed, customColors) {
   generator = new MersenneTwister(seed);
   //var remainingColors = hueShift(colors.slice(), generator)
-  var remainingColors = colors.slice();
+  var remainingColors = customColors?.slice() || colors.slice();
 
   var elements = paperGen(diameter, genColor(remainingColors))
   var container = elements.container
